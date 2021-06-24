@@ -14,16 +14,7 @@ Afterwards copy the .so file into this
 
 ### To clone this repository 
 ```
-git clone \
-  --depth 1  \
-  --filter=blob:none  \
-  --sparse \
-  https://github.com/RebornOS-Developers/pkgbuilds \
-;
-cd pkgbuilds
-git sparse-checkout init --cone
-git sparse-checkout set peony-extensions
-cd poeny-extensions
+git clone https://github.com/RebornOS-Developers/peony-extensions.git
 ```
 ### to build this package
 ```
